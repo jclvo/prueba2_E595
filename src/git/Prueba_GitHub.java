@@ -11,6 +11,10 @@ public class Prueba_GitHub {
 		String nombre = scanner.nextLine();
 		System.out.println("Tu nombre es " + nombre);
 		
+		//Modificaciones posteriores al primer commit
+		System.out.println("Introduce tu edad: ");
+		int edad = scanner.nextInt();
+		System.out.println("Mi nombre es " + nombre + " y mi edad: " + edad);
 
 	}
 
